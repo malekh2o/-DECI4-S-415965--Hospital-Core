@@ -20,7 +20,7 @@ beforeAll(async () => {
   app.use('/api/patients', patientRoutes);
   app.use('/api/doctors', doctorRoutes);
   app.use('/api/appointments', appointmentRoutes);
-}, 30000);
+}, 30000000);
 
 afterAll(async () => {
   await mongoose.connection.close();

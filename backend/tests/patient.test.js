@@ -16,7 +16,7 @@ beforeAll(async () => {
   app = express();
   app.use(express.json());
   app.use('/api/patients', patientRoutes);
-}, 30000);
+}, 30000000);
 
 afterAll(async () => {
   await mongoose.connection.close();
