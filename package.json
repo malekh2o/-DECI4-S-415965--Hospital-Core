@@ -1,6 +1,6 @@
 {
   "name": "healthcare-system",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
   "private": true,
   "workspaces": [
@@ -9,9 +9,9 @@
     "microservices/appointment-service"
   ],
   "scripts": {
-  "dev:backend": "npm run dev --workspace=backend",
-  "dev:frontend": "npm run dev --workspace=frontend",
-  "release": "standard-version"
+    "dev:backend": "npm run dev --workspace=backend",
+    "dev:frontend": "npm run dev --workspace=frontend",
+    "release": "standard-version"
   },
   "author": "",
   "license": "ISC",
