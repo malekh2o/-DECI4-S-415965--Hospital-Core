@@ -3,3 +3,5 @@ node_modules
 dist
 build
 *.log
+infra/k8s/tls/tls.key
+infra/k8s/tls/tls.crt
